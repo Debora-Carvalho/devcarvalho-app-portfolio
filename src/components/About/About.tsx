@@ -13,7 +13,11 @@ export function About() {
             alt='Imagem de perfil para cabeçalho'
         />
         
-        <View>
+        <View style={styles.containerText}>
+            <Text style={styles.title}>
+                Olá!
+            </Text>
+
             <Text style={styles.textSimple}>
                 Me chamo Débora Carvalho e atuo como Desenvolvedora Front-end, Designer gráfico e Analista de dados.
             </Text>
@@ -29,6 +33,12 @@ export function About() {
             <Text style={styles.textSimple}>
                 Busco constantemente por novos desafios para agregar conhecimento, experiências e crescimento profissional.
             </Text>
+
+            <View>
+                <Text style={styles.title}>
+                    Hobbies
+                </Text>
+            </View>
         </View>
     </ScrollView>
   );
