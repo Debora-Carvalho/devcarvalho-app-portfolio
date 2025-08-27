@@ -3,6 +3,7 @@ import { ScrollView, Text, View, Image } from 'react-native';
 
 import { styles } from './AboutStyles';
 import imgCardProfile from '../../../assets/images/card-profile-about.png';
+import { BoxHobbie } from '../BoxHobbie/BoxHobbie';
 
 export function About() {
   return (
@@ -38,6 +39,8 @@ export function About() {
                 <Text style={styles.title}>
                     Hobbies
                 </Text>
+
+                <BoxHobbie />
             </View>
         </View>
     </ScrollView>
